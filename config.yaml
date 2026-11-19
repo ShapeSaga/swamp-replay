@@ -1,0 +1,39 @@
+# Swamp Replay — réglages du robot. Ce fichier ne contient AUCUN secret
+# (les clés sont dans les « Secrets » de GitHub : TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, BUFFER_API_KEY,
+#  CLOUDFLARE_API_TOKEN pour le réceptionniste).
+#
+# Les vidéos sont fabriquées sur le PC de Chahine (clips GTA 6 : GTA6Clips/fabrique_pc.py) et déposées
+# dans la release « videos » de ce dépôt (EP001.mp4 + EP001.json). Le robot les récupère à chaque passage.
+
+identite:
+  nom_compte: "Swamp Replay"
+  # Comptes : TikTok @swampreplay · YouTube @swampreplay · Instagram @swampreplay
+
+cadence:
+  fuseau: "Europe/Paris"
+  jours_avance: 2                  # file de clips d avance
+  avance_min_heures: 3             # jamais d'envoi pour un créneau qui commence dans moins de 3 h
+  creneaux: ["12:00", "20:00"]     # 2 vidéos par jour (réglable ici, ex. ["12:00", "17:00", "21:00"])
+  marge_minutes: 30
+
+validation:
+  delai_heures: 48                 # sans réponse après 48 h : la vidéo n'est PAS publiée
+  rappel_heures: 24
+  max_en_attente: 4                # vidéos de TEST en attente (les vraies suivent les créneaux libres)
+
+publication:
+  plateformes: ["tiktok", "youtube", "instagram"]
+  publieurs: { tiktok: "buffer", youtube: "buffer", instagram: "buffer" }
+  limite_file_par_canal: 10
+  contenu_ia: false                # extraits de streams, pas de contenu IA
+  buffer:
+    organisation_id: ""            # vide = trouvé automatiquement
+    canaux: { tiktok: "", youtube: "", instagram: "" }
+    youtube_categorie: "20"        # 20 = Jeux vidéo
+  hebergement:
+    depot: ""                      # vide = ce dépôt (il doit être PUBLIC : Buffer vient y chercher les vidéos)
+    tag_release: "videos"
+    conserver_jours: 10
+
+alertes:
+  repetition_heures: 12

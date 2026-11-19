@@ -1,0 +1,60 @@
+# Le robot : toutes les 10 minutes, récupère les vidéos déposées par le PC, lit Telegram (✅ ❌),
+# envoie les nouvelles vidéos à valider et programme les vidéos validées dans Buffer.
+# Aucune fabrication ici : les vidéos sont enregistrées sur le PC de Chahine (clips GTA 6 du plugin gtavi-claudecode).
+name: Cycle du robot
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"       # toutes les 10 minutes (GitHub peut ajouter quelques minutes de retard)
+  workflow_dispatch: {}          # bouton « Run workflow »
+
+concurrency:
+  group: cycle-robot
+  cancel-in-progress: false
+
+permissions:
+  contents: write                # sauvegarde de etat/ + hébergement des vidéos (Release)
+
+jobs:
+  cycle:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+      - name: Outils
+        run: pip install -q -r requirements.txt
+      - name: Récupérer les vidéos du PC (seulement s'il y a des créneaux libres)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m robot recuperer
+      - name: Cycle
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+        run: python -m robot cycle
+      - name: Sauvegarde de l'état (3 essais, l'état du robot l'emporte en cas de conflit)
+        if: always()
+        run: |
+          git config user.name "robot-swamp-replay"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add etat/
+          if git diff --cached --quiet; then
+            echo "Rien à sauvegarder"; exit 0
+          fi
+          git commit -q -m "État du robot ($(date -u +'%Y-%m-%d %H:%M') UTC)"
+          for essai in 1 2 3; do
+            if git pull -q --rebase -X theirs && git push -q; then echo "Sauvegardé"; exit 0; fi
+            echo "Essai $essai raté, nouvel essai"; git rebase --abort 2>/dev/null || true; sleep $((essai * 5))
+          done
+          echo "::error::Sauvegarde de l'état impossible après 3 essais"; exit 1

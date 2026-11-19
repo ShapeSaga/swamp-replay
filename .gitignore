@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+*.part
+# vidéos : hébergées dans la release « videos », jamais dans Git
+episodes/*
+!episodes/.gitkeep
