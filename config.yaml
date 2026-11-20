@@ -17,7 +17,7 @@ cadence:
   marge_minutes: 30
 
 validation:
-  automatique: true               # Swamp Replay : publié sans ✅ (Chahine ne fait rien, clips vérifiés par Claude avant dépôt)
+  automatique: false              # Chahine valide toute la semaine d un coup sur Telegram (20/11)
   delai_heures: 48                 # sans réponse après 48 h : la vidéo n'est PAS publiée
   rappel_heures: 24
   max_en_attente: 4                # vidéos de TEST en attente (les vraies suivent les créneaux libres)
