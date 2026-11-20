@@ -13,7 +13,7 @@ cadence:
   fuseau: "Europe/Paris"
   jours_avance: 7                  # une semaine d avance (demande de Chahine, 20/11)
   avance_min_heures: 3             # jamais d'envoi pour un créneau qui commence dans moins de 3 h
-  creneaux: ["18:00", "22:00"]     # 12 h et 16 h à New York : audience US exigée par la campagne KreekCraft (20/11)
+  creneaux: ["01:00", "21:00"]     # 19 h et 15 h à New York (pics US, étude du 20/11 ; avancer d 1 h en mars quand les US changent d heure avant l Europe)
   marge_minutes: 30
 
 validation:
