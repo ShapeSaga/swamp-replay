@@ -248,6 +248,10 @@ class Orchestrateur:
             if prevu:
                 fiche["creneau_prevu"] = prevu.astimezone(timezone.utc).isoformat()
             self.etat.episodes[ep["id"]] = fiche          # enregistré AVANT la suite : jamais renvoyé en double
+            if self.conf["validation"].get("automatique") and not ep.get("test"):
+                fiche["statut"] = VALIDE                  # Swamp Replay : clips vérifiés sur le PC avant dépôt (20/11)
+                fiche["valide_le"] = self.maintenant().isoformat()
+                self.marquer(fiche, ep["id"], "✅ VALIDÉ AUTOMATIQUEMENT")
             place -= 1
             for envoi in (lambda: self.bot.envoyer_message(self.fiche(ep), reponse_a=mid),
                           lambda: self.bot.envoyer_photo(ep["_fichier"].with_name(ep["id"] + "_couverture.jpg"),
