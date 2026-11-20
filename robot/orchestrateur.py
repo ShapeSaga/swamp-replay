@@ -450,11 +450,48 @@ class Orchestrateur:
             log.error("Étape « %s » en échec : %s", nom, self.secrets.masquer(traceback.format_exc()))
             self.alerter(f"etape-{nom}", f"Étape « {nom} » : {exc.__class__.__name__} : {exc}")
 
+    def replanifier(self) -> None:
+        """Déplace dans Buffer les posts déjà programmés d'un épisode qui porte « replanifier_vers » (Swamp Replay, 21/11)."""
+        m_edit = """mutation Edit($input: EditPostInput!) { editPost(input: $input) { __typename
+          ... on PostActionSuccess { post { id dueAt } } ... on MutationError { message } } }"""
+        for cle, f in sorted(self.etat.episodes.items()):
+            cible = f.get("replanifier_vers")
+            if not cible:
+                continue
+            if f["statut"] == VALIDE and not f.get("programme"):
+                f["creneau_prevu"] = cible
+                f.pop("creneau", None)
+                f.pop("replanifier_vers")
+                continue
+            if datetime.fromisoformat(cible) < self.maintenant() + timedelta(minutes=20):
+                f.pop("replanifier_vers")             # trop tard : on laisse l'ancien horaire
+                continue
+            ok = True
+            for plat, info in (f.get("programme") or {}).items():
+                if not isinstance(info, dict) or not info.get("id") or info.get("deplace") == cible:
+                    continue
+                pub = self.publieurs.get(plat)
+                try:
+                    r = pub.gql(m_edit, {"input": {"id": info["id"], "dueAt": cible.replace("+00:00", ".000Z"),
+                                                   "mode": "customScheduled"}}, tentatives=1)["editPost"]
+                    if r.get("__typename") != "PostActionSuccess":
+                        raise RuntimeError(r.get("message") or r.get("__typename"))
+                    info["deplace"] = cible
+                    info["message"] = f"programmé pour {cible}"
+                except Exception as exc:  # noqa: BLE001
+                    ok = False
+                    self.alerter(f"replan-{cle}-{plat}", f"{cle} ({plat}) : déplacement Buffer impossible ({exc})")
+            if ok:
+                f["creneau"] = f["creneau_prevu"] = cible
+                f.pop("replanifier_vers")
+                log.info("%s déplacé au %s", cle, cible)
+
     def cycle(self) -> None:
         manquants = self.secrets.manquants()
         if manquants:
             raise SystemExit("Secrets manquants : " + ", ".join(manquants))
-        for nom, fn in (("fabrication", self.echecs_fabrication), ("Telegram", self.lire_telegram), ("délais", self.gerer_delais),
+        for nom, fn in (("replanification", self.replanifier),
+                        ("fabrication", self.echecs_fabrication), ("Telegram", self.lire_telegram), ("délais", self.gerer_delais),
                         ("envoi des nouvelles vidéos", self.envoyer_nouveaux),
                         ("publication", self.publier_valides), ("miniatures YouTube", self.miniatures_youtube),
                         ("ménage", self.menage)):
