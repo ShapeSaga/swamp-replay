@@ -11,9 +11,9 @@ identite:
 
 cadence:
   fuseau: "Europe/Paris"
-  jours_avance: 2                  # file de clips d avance
+  jours_avance: 7                  # une semaine d avance (demande de Chahine, 20/11)
   avance_min_heures: 3             # jamais d'envoi pour un créneau qui commence dans moins de 3 h
-  creneaux: ["12:00", "20:00"]     # 2 vidéos par jour (réglable ici, ex. ["12:00", "17:00", "21:00"])
+  creneaux: ["18:00", "22:00"]     # 12 h et 16 h à New York : audience US exigée par la campagne KreekCraft (20/11)
   marge_minutes: 30
 
 validation:
