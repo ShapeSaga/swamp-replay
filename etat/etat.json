@@ -1,1 +1,37 @@
-{}
+{
+ "alertes": {},
+ "correctif_instagram": 1,
+ "diag_telegram": {
+  "clics_recus": 0,
+  "mode": "réceptionniste"
+ },
+ "episodes": {
+  "EP001": {
+   "envoye_le": "2026-11-20T00:11:28.689211+00:00",
+   "message_id": 3,
+   "meta": {
+    "hashtags": [
+     "#gta6",
+     "#gtavi",
+     "#gaming",
+     "#leonida",
+     "#shorts"
+    ],
+    "id": "EP001",
+    "legende": "You can steal the jumbo jets 😳\n\nRate this moment from 1 to 10 👇\n\n🎥 Credit: @jackfrags\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": true,
+    "titre": "You can steal the jumbo jets 😳 #gta6 #shorts",
+    "youtube_description": "You can steal the jumbo jets\n\n🎥 Full credit to @jackfrags, go support the stream.\n\nRate this moment from 1 to 10 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": true,
+   "titre": "You can steal the jumbo jets 😳 #gta6 #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP001.mp4"
+  }
+ },
+ "offset": 0,
+ "pause": false,
+ "relais_a_confirmer": []
+}
