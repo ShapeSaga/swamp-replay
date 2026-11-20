@@ -2,7 +2,7 @@
  "alertes": {},
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 1,
+  "clics_recus": 8,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -45,6 +45,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP001.mp4"
   },
   "EP002": {
+   "creneau": "2026-11-20T17:00:00+00:00",
    "creneau_prevu": "2026-11-20T17:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:28.061747+00:00",
    "message_id": 6,
@@ -62,13 +63,28 @@
     "titre": "Wait, if I run him over 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · Wait, if I run him over\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWho else is trying this tonight? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "envoye",
+   "programme": {
+    "instagram": {
+     "id": "6b0039bd234b6bb6ee92ce6d",
+     "message": "programmé pour 2026-11-20T17:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039bc44831c50e4c0fe75",
+     "message": "programmé pour 2026-11-20T17:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039bd7efc64d5e418a335",
+     "message": "programmé pour 2026-11-20T17:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "Wait, if I run him over 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:28.816399+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP002.mp4"
   },
   "EP003": {
+   "creneau": "2026-11-20T21:00:00+00:00",
    "creneau_prevu": "2026-11-20T21:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:30.200604+00:00",
    "message_id": 8,
@@ -86,13 +102,28 @@
     "titre": "Wait... isn't Albany in New York? 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · Wait... isn't Albany in New York?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWho else is trying this tonight? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "envoye",
+   "programme": {
+    "instagram": {
+     "id": "6b0039bf234b6bb6ee92cee0",
+     "message": "programmé pour 2026-11-20T21:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039be8f4d50958cc066f1",
+     "message": "programmé pour 2026-11-20T21:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039bf44831c50e4c0ff57",
+     "message": "programmé pour 2026-11-20T21:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "Wait... isn't Albany in New York? 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:29.483067+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP003.mp4"
   },
   "EP004": {
+   "creneau": "2026-11-21T17:00:00+00:00",
    "creneau_prevu": "2026-11-21T17:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:31.737022+00:00",
    "message_id": 10,
@@ -110,13 +141,28 @@
     "titre": "Chat picked his GTA 6 haircut 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · Chat picked his GTA 6 haircut\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWho else is trying this tonight? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "envoye",
+   "programme": {
+    "instagram": {
+     "id": "6b0039c15d9549971ca2699d",
+     "message": "programmé pour 2026-11-21T17:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039c05d9549971ca26965",
+     "message": "programmé pour 2026-11-21T17:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039c144831c50e4c10022",
+     "message": "programmé pour 2026-11-21T17:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "Chat picked his GTA 6 haircut 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:29.806171+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP004.mp4"
   },
   "EP005": {
+   "creneau": "2026-11-21T21:00:00+00:00",
    "creneau_prevu": "2026-11-21T21:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:35.995457+00:00",
    "message_id": 12,
@@ -134,13 +180,28 @@
     "titre": "No such thing as extra beer 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · No such thing as extra beer\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWould you have done the same? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "envoye",
+   "programme": {
+    "instagram": {
+     "id": "6b0039c344831c50e4c100fc",
+     "message": "programmé pour 2026-11-21T21:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039c2234b6bb6ee92cf76",
+     "message": "programmé pour 2026-11-21T21:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039c37efc64d5e418a66c",
+     "message": "programmé pour 2026-11-21T21:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "No such thing as extra beer 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:30.215333+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP005.mp4"
   },
   "EP006": {
+   "creneau": "2026-11-22T17:00:00+00:00",
    "creneau_prevu": "2026-11-22T17:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:38.235887+00:00",
    "message_id": 14,
@@ -158,13 +219,28 @@
     "titre": "That's NOT what I meant to do 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · That's NOT what I meant to do\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nBe honest, did you know this? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "envoye",
+   "programme": {
+    "instagram": {
+     "id": "6b0039c6fc5b97f0f80323c2",
+     "message": "programmé pour 2026-11-22T17:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039c57efc64d5e418a73b",
+     "message": "programmé pour 2026-11-22T17:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039c68f4d50958cc06c21",
+     "message": "programmé pour 2026-11-22T17:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "That's NOT what I meant to do 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:30.540316+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP006.mp4"
   },
   "EP007": {
+   "creneau": "2026-11-22T21:00:00+00:00",
    "creneau_prevu": "2026-11-22T21:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:39.569949+00:00",
    "message_id": 16,
@@ -182,13 +258,28 @@
     "titre": "Option A or option B? 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · Option A or option B?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWho else is trying this tonight? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "envoye",
+   "programme": {
+    "instagram": {
+     "id": "6b0039ca5d9549971ca27503",
+     "message": "programmé pour 2026-11-22T21:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039c8fc5b97f0f80324bc",
+     "message": "programmé pour 2026-11-22T21:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039c944831c50e4c10556",
+     "message": "programmé pour 2026-11-22T21:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "Option A or option B? 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:30.875969+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP007.mp4"
   },
   "EP008": {
+   "creneau": "2026-11-23T17:00:00+00:00",
    "creneau_prevu": "2026-11-23T17:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:41.130036+00:00",
    "message_id": 18,
@@ -206,13 +297,28 @@
     "titre": "$35 for this jacket? 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · $35 for this jacket?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nRate this moment from 1 to 10 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "envoye",
+   "programme": {
+    "instagram": {
+     "id": "6b0039ce44831c50e4c10aa9",
+     "message": "programmé pour 2026-11-23T17:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039cc44831c50e4c108c5",
+     "message": "programmé pour 2026-11-23T17:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039cd5d9549971ca27a0a",
+     "message": "programmé pour 2026-11-23T17:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "$35 for this jacket? 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:31.203405+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP008.mp4"
   },
   "EP009": {
+   "creneau": "2026-11-23T21:00:00+00:00",
    "creneau_prevu": "2026-11-23T21:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:42.855720+00:00",
    "message_id": 20,
@@ -230,16 +336,181 @@
     "titre": "Who's texting me right now? 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · Who's texting me right now?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nRate this moment from 1 to 10 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
+   "programme": {
+    "instagram": {
+     "id": "6b0039d2fc5b97f0f8033409",
+     "message": "programmé pour 2026-11-23T21:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0039d08f4d50958cc078c6",
+     "message": "programmé pour 2026-11-23T21:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0039d1234b6bb6ee92e27a",
+     "message": "programmé pour 2026-11-23T21:00:00.000Z"
+    }
+   },
+   "statut": "programme",
+   "test": false,
+   "titre": "Who's texting me right now? 😳 #GTA6 #KreekCraft #shorts",
+   "valide_le": "2026-11-20T12:14:31.546722+00:00",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP009.mp4"
+  },
+  "EP010": {
+   "creneau_prevu": "2026-11-24T17:00:00+00:00",
+   "envoye_le": "2026-11-20T12:14:34.939486+00:00",
+   "message_id": 24,
+   "meta": {
+    "hashtags": [
+     "#GTA6",
+     "#KreekCraft",
+     "#GrandTheftAutoVI",
+     "#shorts"
+    ],
+    "id": "EP010",
+    "legende": "#ad · A tractor vs a grandma on a scooter 😳\n\n📺 Watch KreekCraft on YouTube and Twitch\n\nWould you have done the same? 👇\n\n🎥 Credit: @KreekCraft\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "A tractor vs a grandma on a scooter 😳 #GTA6 #KreekCraft #shorts",
+    "youtube_description": "#ad · A tractor vs a grandma on a scooter\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWould you have done the same? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
+   },
    "programme": {},
    "statut": "envoye",
    "test": false,
-   "titre": "Who's texting me right now? 😳 #GTA6 #KreekCraft #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP009.mp4"
+   "titre": "A tractor vs a grandma on a scooter 😳 #GTA6 #KreekCraft #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP010.mp4"
+  },
+  "EP011": {
+   "creneau_prevu": "2026-11-24T21:00:00+00:00",
+   "envoye_le": "2026-11-20T12:14:37.786380+00:00",
+   "message_id": 26,
+   "meta": {
+    "hashtags": [
+     "#GTA6",
+     "#KreekCraft",
+     "#GrandTheftAutoVI",
+     "#shorts"
+    ],
+    "id": "EP011",
+    "legende": "#ad · Who's Mandy? 😳\n\n📺 Watch KreekCraft on YouTube and Twitch\n\nBe honest, did you know this? 👇\n\n🎥 Credit: @KreekCraft\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
+    "youtube_description": "#ad · Who's Mandy?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nBe honest, did you know this? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4"
+  },
+  "EP012": {
+   "creneau_prevu": "2026-11-25T17:00:00+00:00",
+   "envoye_le": "2026-11-20T12:14:42.001699+00:00",
+   "message_id": 28,
+   "meta": {
+    "hashtags": [
+     "#GTA6",
+     "#KreekCraft",
+     "#GrandTheftAutoVI",
+     "#shorts"
+    ],
+    "id": "EP012",
+    "legende": "#ad · This is the greatest game of all time 😳\n\n📺 Watch KreekCraft on YouTube and Twitch\n\nBe honest, did you know this? 👇\n\n🎥 Credit: @KreekCraft\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "This is the greatest game of all time 😳 #GTA6 #KreekCraft #shorts",
+    "youtube_description": "#ad · This is the greatest game of all time\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nBe honest, did you know this? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "This is the greatest game of all time 😳 #GTA6 #KreekCraft #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP012.mp4"
+  },
+  "EP013": {
+   "creneau_prevu": "2026-11-25T21:00:00+00:00",
+   "envoye_le": "2026-11-20T12:14:46.237997+00:00",
+   "message_id": 30,
+   "meta": {
+    "hashtags": [
+     "#GTA6",
+     "#KreekCraft",
+     "#GrandTheftAutoVI",
+     "#shorts"
+    ],
+    "id": "EP013",
+    "legende": "#ad · You can throw dog poop? 😳\n\n📺 Watch KreekCraft on YouTube and Twitch\n\nRate this moment from 1 to 10 👇\n\n🎥 Credit: @KreekCraft\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "You can throw dog poop? 😳 #GTA6 #KreekCraft #shorts",
+    "youtube_description": "#ad · You can throw dog poop?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nRate this moment from 1 to 10 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "You can throw dog poop? 😳 #GTA6 #KreekCraft #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP013.mp4"
+  },
+  "EP014": {
+   "creneau_prevu": "2026-11-26T17:00:00+00:00",
+   "envoye_le": "2026-11-20T12:14:48.930534+00:00",
+   "message_id": 32,
+   "meta": {
+    "hashtags": [
+     "#GTA6",
+     "#KreekCraft",
+     "#GrandTheftAutoVI",
+     "#shorts"
+    ],
+    "id": "EP014",
+    "legende": "#ad · We gotta leave. NOW 😳\n\n📺 Watch KreekCraft on YouTube and Twitch\n\nBe honest, did you know this? 👇\n\n🎥 Credit: @KreekCraft\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "We gotta leave. NOW 😳 #GTA6 #KreekCraft #shorts",
+    "youtube_description": "#ad · We gotta leave. NOW\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nBe honest, did you know this? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "We gotta leave. NOW 😳 #GTA6 #KreekCraft #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP014.mp4"
+  },
+  "EP015": {
+   "creneau_prevu": "2026-11-26T21:00:00+00:00",
+   "envoye_le": "2026-11-20T12:14:50.977041+00:00",
+   "message_id": 34,
+   "meta": {
+    "hashtags": [
+     "#GTA6",
+     "#KreekCraft",
+     "#GrandTheftAutoVI",
+     "#shorts"
+    ],
+    "id": "EP015",
+    "legende": "#ad · I was expecting better 😳\n\n📺 Watch KreekCraft on YouTube and Twitch\n\nWho else is trying this tonight? 👇\n\n🎥 Credit: @KreekCraft\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "I was expecting better 😳 #GTA6 #KreekCraft #shorts",
+    "youtube_description": "#ad · I was expecting better\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWho else is trying this tonight? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "I was expecting better 😳 #GTA6 #KreekCraft #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP015.mp4"
   }
  },
  "offset": 0,
  "pause": false,
  "relais_a_confirmer": [
-  491274232
+  491274233,
+  491274234,
+  491274235,
+  491274236,
+  491274237,
+  491274238,
+  491274239,
+  491274240
  ]
 }
