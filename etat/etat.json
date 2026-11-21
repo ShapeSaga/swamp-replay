@@ -461,7 +461,8 @@
    "test": false,
    "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.352575+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4",
+   "replanifier_vers": "2026-11-27T00:00:00+00:00"
   },
   "EP012": {
    "creneau": "2026-11-25T00:00:00+00:00",
