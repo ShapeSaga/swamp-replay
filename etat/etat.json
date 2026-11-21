@@ -163,11 +163,12 @@
      "message": "programmé pour 2026-11-21T20:00:00+00:00"
     }
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "Chat picked his GTA 6 haircut 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:29.806171+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP004.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP004.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP005": {
    "creneau": "2026-11-21T21:00:00+00:00",
@@ -205,11 +206,12 @@
     }
    },
    "replanifier_vers": "2026-11-22T00:00:00+00:00",
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "No such thing as extra beer 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:30.215333+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP005.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP005.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP006": {
    "creneau": "2026-11-22T20:00:00+00:00",
@@ -247,11 +249,12 @@
      "message": "programmé pour 2026-11-22T20:00:00+00:00"
     }
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "That's NOT what I meant to do 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:30.540316+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP006.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP006.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP007": {
    "creneau": "2026-11-23T00:00:00+00:00",
@@ -289,11 +292,12 @@
      "message": "programmé pour 2026-11-23T00:00:00+00:00"
     }
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "Option A or option B? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:30.875969+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP007.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP007.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP008": {
    "creneau": "2026-11-23T20:00:00+00:00",
@@ -331,11 +335,12 @@
      "message": "programmé pour 2026-11-23T20:00:00+00:00"
     }
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "$35 for this jacket? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:31.203405+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP008.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP008.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP009": {
    "creneau": "2026-11-24T00:00:00+00:00",
@@ -373,11 +378,12 @@
      "message": "programmé pour 2026-11-24T00:00:00+00:00"
     }
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "Who's texting me right now? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:31.546722+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP009.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP009.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP010": {
    "creneau": "2026-11-24T20:00:00+00:00",
@@ -415,11 +421,12 @@
      "message": "programmé pour 2026-11-24T20:00:00+00:00"
     }
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "A tractor vs a grandma on a scooter 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:26.890565+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP010.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP010.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP011": {
    "creneau": "2026-11-27T00:00:00+00:00",
@@ -460,11 +467,12 @@
    "refus": {
     "youtube": 1
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.352575+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP012": {
    "creneau": "2026-11-25T00:00:00+00:00",
@@ -499,11 +507,12 @@
      "message": "programmé pour 2026-11-25T00:00:00.000Z"
     }
    },
-   "statut": "programme",
+   "statut": "refuse",
    "test": false,
    "titre": "This is the greatest game of all time 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.590358+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP012.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP012.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP013": {
    "creneau_prevu": "2026-11-25T20:00:00+00:00",
@@ -524,11 +533,12 @@
     "youtube_description": "#ad · You can throw dog poop?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nRate this moment from 1 to 10 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
    "programme": {},
-   "statut": "valide",
+   "statut": "refuse",
    "test": false,
    "titre": "You can throw dog poop? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.820445+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP013.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP013.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP014": {
    "creneau_prevu": "2026-11-26T00:00:00+00:00",
@@ -549,11 +559,12 @@
     "youtube_description": "#ad · We gotta leave. NOW\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nBe honest, did you know this? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
    "programme": {},
-   "statut": "valide",
+   "statut": "refuse",
    "test": false,
    "titre": "We gotta leave. NOW 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:28.095528+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP014.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP014.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   },
   "EP015": {
    "creneau_prevu": "2026-11-26T20:00:00+00:00",
@@ -574,11 +585,12 @@
     "youtube_description": "#ad · I was expecting better\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nWho else is trying this tonight? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
    "programme": {},
-   "statut": "valide",
+   "statut": "refuse",
    "test": false,
    "titre": "I was expecting better 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:28.334174+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP015.mp4"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP015.mp4",
+   "abandon_kreekcraft": "21/11 campagne arretee"
   }
  },
  "offset": 0,
