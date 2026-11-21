@@ -1,8 +1,13 @@
 {
- "alertes": {},
+ "alertes": {
+  "decale-EP011": "2026-11-21T01:40:11.174452+00:00",
+  "pub-EP011-youtube": "2026-11-21T01:40:12.840173+00:00",
+  "replan-EP005-youtube": "2026-11-21T01:40:07.243625+00:00",
+  "replan-EP007-youtube": "2026-11-21T01:40:08.412328+00:00"
+ },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 6,
+  "clics_recus": 0,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -116,15 +121,15 @@
      "message": "programmé pour 2026-11-20T21:00:00.000Z"
     }
    },
-   "statut": "programme",
+   "statut": "publie",
    "test": false,
    "titre": "Wait... isn't Albany in New York? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:29.483067+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP003.mp4"
   },
   "EP004": {
-   "creneau": "2026-11-21T17:00:00+00:00",
-   "creneau_prevu": "2026-11-21T17:00:00+00:00",
+   "creneau": "2026-11-21T20:00:00+00:00",
+   "creneau_prevu": "2026-11-21T20:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:31.737022+00:00",
    "message_id": 10,
    "meta": {
@@ -143,24 +148,26 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-21T20:00:00+00:00",
      "id": "6b0039c15d9549971ca2699d",
-     "message": "programmé pour 2026-11-21T17:00:00.000Z"
+     "message": "programmé pour 2026-11-21T20:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-21T20:00:00+00:00",
      "id": "6b0039c05d9549971ca26965",
-     "message": "programmé pour 2026-11-21T17:00:00.000Z"
+     "message": "programmé pour 2026-11-21T20:00:00+00:00"
     },
     "youtube": {
+     "deplace": "2026-11-21T20:00:00+00:00",
      "id": "6b0039c144831c50e4c10022",
-     "message": "programmé pour 2026-11-21T17:00:00.000Z"
+     "message": "programmé pour 2026-11-21T20:00:00+00:00"
     }
    },
    "statut": "programme",
    "test": false,
    "titre": "Chat picked his GTA 6 haircut 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:29.806171+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP004.mp4",
-   "replanifier_vers": "2026-11-21T20:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP004.mp4"
   },
   "EP005": {
    "creneau": "2026-11-21T21:00:00+00:00",
@@ -183,28 +190,30 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-22T00:00:00+00:00",
      "id": "6b0039c344831c50e4c100fc",
-     "message": "programmé pour 2026-11-21T21:00:00.000Z"
+     "message": "programmé pour 2026-11-22T00:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-22T00:00:00+00:00",
      "id": "6b0039c2234b6bb6ee92cf76",
-     "message": "programmé pour 2026-11-21T21:00:00.000Z"
+     "message": "programmé pour 2026-11-22T00:00:00+00:00"
     },
     "youtube": {
      "id": "6b0039c37efc64d5e418a66c",
      "message": "programmé pour 2026-11-21T21:00:00.000Z"
     }
    },
+   "replanifier_vers": "2026-11-22T00:00:00+00:00",
    "statut": "programme",
    "test": false,
    "titre": "No such thing as extra beer 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:30.215333+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP005.mp4",
-   "replanifier_vers": "2026-11-22T00:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP005.mp4"
   },
   "EP006": {
-   "creneau": "2026-11-22T17:00:00+00:00",
-   "creneau_prevu": "2026-11-22T17:00:00+00:00",
+   "creneau": "2026-11-22T20:00:00+00:00",
+   "creneau_prevu": "2026-11-22T20:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:38.235887+00:00",
    "message_id": 14,
    "meta": {
@@ -223,24 +232,26 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-22T20:00:00+00:00",
      "id": "6b0039c6fc5b97f0f80323c2",
-     "message": "programmé pour 2026-11-22T17:00:00.000Z"
+     "message": "programmé pour 2026-11-22T20:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-22T20:00:00+00:00",
      "id": "6b0039c57efc64d5e418a73b",
-     "message": "programmé pour 2026-11-22T17:00:00.000Z"
+     "message": "programmé pour 2026-11-22T20:00:00+00:00"
     },
     "youtube": {
+     "deplace": "2026-11-22T20:00:00+00:00",
      "id": "6b0039c68f4d50958cc06c21",
-     "message": "programmé pour 2026-11-22T17:00:00.000Z"
+     "message": "programmé pour 2026-11-22T20:00:00+00:00"
     }
    },
    "statut": "programme",
    "test": false,
    "titre": "That's NOT what I meant to do 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:30.540316+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP006.mp4",
-   "replanifier_vers": "2026-11-22T20:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP006.mp4"
   },
   "EP007": {
    "creneau": "2026-11-22T21:00:00+00:00",
@@ -263,28 +274,30 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-23T00:00:00+00:00",
      "id": "6b0039ca5d9549971ca27503",
-     "message": "programmé pour 2026-11-22T21:00:00.000Z"
+     "message": "programmé pour 2026-11-23T00:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-23T00:00:00+00:00",
      "id": "6b0039c8fc5b97f0f80324bc",
-     "message": "programmé pour 2026-11-22T21:00:00.000Z"
+     "message": "programmé pour 2026-11-23T00:00:00+00:00"
     },
     "youtube": {
      "id": "6b0039c944831c50e4c10556",
      "message": "programmé pour 2026-11-22T21:00:00.000Z"
     }
    },
+   "replanifier_vers": "2026-11-23T00:00:00+00:00",
    "statut": "programme",
    "test": false,
    "titre": "Option A or option B? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:30.875969+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP007.mp4",
-   "replanifier_vers": "2026-11-23T00:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP007.mp4"
   },
   "EP008": {
-   "creneau": "2026-11-23T17:00:00+00:00",
-   "creneau_prevu": "2026-11-23T17:00:00+00:00",
+   "creneau": "2026-11-23T20:00:00+00:00",
+   "creneau_prevu": "2026-11-23T20:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:41.130036+00:00",
    "message_id": 18,
    "meta": {
@@ -303,28 +316,30 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-23T20:00:00+00:00",
      "id": "6b0039ce44831c50e4c10aa9",
-     "message": "programmé pour 2026-11-23T17:00:00.000Z"
+     "message": "programmé pour 2026-11-23T20:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-23T20:00:00+00:00",
      "id": "6b0039cc44831c50e4c108c5",
-     "message": "programmé pour 2026-11-23T17:00:00.000Z"
+     "message": "programmé pour 2026-11-23T20:00:00+00:00"
     },
     "youtube": {
+     "deplace": "2026-11-23T20:00:00+00:00",
      "id": "6b0039cd5d9549971ca27a0a",
-     "message": "programmé pour 2026-11-23T17:00:00.000Z"
+     "message": "programmé pour 2026-11-23T20:00:00+00:00"
     }
    },
    "statut": "programme",
    "test": false,
    "titre": "$35 for this jacket? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:31.203405+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP008.mp4",
-   "replanifier_vers": "2026-11-23T20:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP008.mp4"
   },
   "EP009": {
-   "creneau": "2026-11-23T21:00:00+00:00",
-   "creneau_prevu": "2026-11-23T21:00:00+00:00",
+   "creneau": "2026-11-24T00:00:00+00:00",
+   "creneau_prevu": "2026-11-24T00:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:42.855720+00:00",
    "message_id": 20,
    "meta": {
@@ -343,28 +358,30 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-24T00:00:00+00:00",
      "id": "6b0039d2fc5b97f0f8033409",
-     "message": "programmé pour 2026-11-23T21:00:00.000Z"
+     "message": "programmé pour 2026-11-24T00:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-24T00:00:00+00:00",
      "id": "6b0039d08f4d50958cc078c6",
-     "message": "programmé pour 2026-11-23T21:00:00.000Z"
+     "message": "programmé pour 2026-11-24T00:00:00+00:00"
     },
     "youtube": {
+     "deplace": "2026-11-24T00:00:00+00:00",
      "id": "6b0039d1234b6bb6ee92e27a",
-     "message": "programmé pour 2026-11-23T21:00:00.000Z"
+     "message": "programmé pour 2026-11-24T00:00:00+00:00"
     }
    },
    "statut": "programme",
    "test": false,
    "titre": "Who's texting me right now? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T12:14:31.546722+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP009.mp4",
-   "replanifier_vers": "2026-11-24T00:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP009.mp4"
   },
   "EP010": {
-   "creneau": "2026-11-24T17:00:00+00:00",
-   "creneau_prevu": "2026-11-24T17:00:00+00:00",
+   "creneau": "2026-11-24T20:00:00+00:00",
+   "creneau_prevu": "2026-11-24T20:00:00+00:00",
    "envoye_le": "2026-11-20T12:14:34.939486+00:00",
    "message_id": 24,
    "meta": {
@@ -383,26 +400,29 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-24T20:00:00+00:00",
      "id": "6b00ad3244c36191135c9a8b",
-     "message": "programmé pour 2026-11-24T17:00:00.000Z"
+     "message": "programmé pour 2026-11-24T20:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-24T20:00:00+00:00",
      "id": "6b00ad3173831df014862848",
-     "message": "programmé pour 2026-11-24T17:00:00.000Z"
+     "message": "programmé pour 2026-11-24T20:00:00+00:00"
     },
     "youtube": {
+     "deplace": "2026-11-24T20:00:00+00:00",
      "id": "6b00ad32d425f1473a104234",
-     "message": "programmé pour 2026-11-24T17:00:00.000Z"
+     "message": "programmé pour 2026-11-24T20:00:00+00:00"
     }
    },
    "statut": "programme",
    "test": false,
    "titre": "A tractor vs a grandma on a scooter 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:26.890565+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP010.mp4",
-   "replanifier_vers": "2026-11-24T20:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP010.mp4"
   },
   "EP011": {
+   "creneau": "2026-11-22T00:00:00+00:00",
    "creneau_prevu": "2026-11-21T00:00:00+00:00",
    "envoye_le": "2026-11-20T12:14:37.786380+00:00",
    "message_id": 26,
@@ -420,7 +440,19 @@
     "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · Who's Mandy?\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nBe honest, did you know this? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
+   "programme": {
+    "instagram": {
+     "id": "6b00f67ddd205ed779aebcbd",
+     "message": "programmé pour 2026-11-22T00:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b00f67bd9cbb430a10f29a5",
+     "message": "programmé pour 2026-11-22T00:00:00.000Z"
+    }
+   },
+   "refus": {
+    "youtube": 1
+   },
    "statut": "valide",
    "test": false,
    "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
@@ -428,7 +460,8 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4"
   },
   "EP012": {
-   "creneau_prevu": "2026-11-22T00:00:00+00:00",
+   "creneau": "2026-11-25T00:00:00+00:00",
+   "creneau_prevu": "2026-11-25T00:00:00+00:00",
    "envoye_le": "2026-11-20T12:14:42.001699+00:00",
    "message_id": 28,
    "meta": {
@@ -445,16 +478,28 @@
     "titre": "This is the greatest game of all time 😳 #GTA6 #KreekCraft #shorts",
     "youtube_description": "#ad · This is the greatest game of all time\n\n📺 Watch KreekCraft on YouTube and Twitch\n\n🎥 Full credit to @KreekCraft, go support the stream.\n\nBe honest, did you know this? 👇\n\nBest GTA 6 moments every day. Follow so you don't miss the next one 🐊"
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b00f67fd9cbb430a10f2bde",
+     "message": "programmé pour 2026-11-25T00:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b00f67e20a2d09a0ac59280",
+     "message": "programmé pour 2026-11-25T00:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b00f67e20a2d09a0ac592fc",
+     "message": "programmé pour 2026-11-25T00:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "This is the greatest game of all time 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.590358+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP012.mp4",
-   "replanifier_vers": "2026-11-25T00:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP012.mp4"
   },
   "EP013": {
-   "creneau_prevu": "2026-11-23T00:00:00+00:00",
+   "creneau_prevu": "2026-11-25T20:00:00+00:00",
    "envoye_le": "2026-11-20T12:14:46.237997+00:00",
    "message_id": 30,
    "meta": {
@@ -476,11 +521,10 @@
    "test": false,
    "titre": "You can throw dog poop? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.820445+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP013.mp4",
-   "replanifier_vers": "2026-11-25T20:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP013.mp4"
   },
   "EP014": {
-   "creneau_prevu": "2026-11-24T00:00:00+00:00",
+   "creneau_prevu": "2026-11-26T00:00:00+00:00",
    "envoye_le": "2026-11-20T12:14:48.930534+00:00",
    "message_id": 32,
    "meta": {
@@ -502,11 +546,10 @@
    "test": false,
    "titre": "We gotta leave. NOW 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:28.095528+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP014.mp4",
-   "replanifier_vers": "2026-11-26T00:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP014.mp4"
   },
   "EP015": {
-   "creneau_prevu": "2026-11-25T00:00:00+00:00",
+   "creneau_prevu": "2026-11-26T20:00:00+00:00",
    "envoye_le": "2026-11-20T12:14:50.977041+00:00",
    "message_id": 34,
    "meta": {
@@ -528,18 +571,10 @@
    "test": false,
    "titre": "I was expecting better 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:28.334174+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP015.mp4",
-   "replanifier_vers": "2026-11-26T20:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP015.mp4"
   }
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": [
-  491274241,
-  491274242,
-  491274243,
-  491274244,
-  491274245,
-  491274246
- ]
+ "relais_a_confirmer": []
 }
