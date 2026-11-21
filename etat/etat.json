@@ -2,7 +2,7 @@
  "alertes": {
   "decale-EP011": "2026-11-21T01:40:11.174452+00:00",
   "pub-EP011-youtube": "2026-11-21T01:40:12.840173+00:00",
-  "replan-EP005-youtube": "2026-11-21T01:40:07.243625+00:00",
+  "replan-EP005-youtube": "2026-11-21T16:25:06.085532+00:00",
   "replan-EP007-youtube": "2026-11-21T01:40:08.412328+00:00"
  },
  "correctif_instagram": 1,
@@ -422,8 +422,8 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP010.mp4"
   },
   "EP011": {
-   "creneau": "2026-11-22T00:00:00+00:00",
-   "creneau_prevu": "2026-11-21T00:00:00+00:00",
+   "creneau": "2026-11-27T00:00:00+00:00",
+   "creneau_prevu": "2026-11-27T00:00:00+00:00",
    "envoye_le": "2026-11-20T12:14:37.786380+00:00",
    "message_id": 26,
    "meta": {
@@ -442,16 +442,19 @@
    },
    "programme": {
     "instagram": {
+     "deplace": "2026-11-27T00:00:00+00:00",
      "id": "6b00f67ddd205ed779aebcbd",
-     "message": "programmé pour 2026-11-22T00:00:00.000Z"
+     "message": "programmé pour 2026-11-27T00:00:00+00:00"
     },
     "tiktok": {
+     "deplace": "2026-11-27T00:00:00+00:00",
      "id": "6b00f67bd9cbb430a10f29a5",
-     "message": "programmé pour 2026-11-22T00:00:00.000Z"
+     "message": "programmé pour 2026-11-27T00:00:00+00:00"
     },
     "youtube": {
+     "deplace": "2026-11-27T00:00:00+00:00",
      "id": "6b015a379ffbc8503c0eafbb",
-     "message": "programmé pour 2026-11-22T00:00:00.000Z"
+     "message": "programmé pour 2026-11-27T00:00:00+00:00"
     }
    },
    "refus": {
@@ -461,8 +464,7 @@
    "test": false,
    "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.352575+00:00",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4",
-   "replanifier_vers": "2026-11-27T00:00:00+00:00"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP011.mp4"
   },
   "EP012": {
    "creneau": "2026-11-25T00:00:00+00:00",
