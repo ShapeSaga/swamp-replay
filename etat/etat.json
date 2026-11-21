@@ -254,8 +254,8 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP006.mp4"
   },
   "EP007": {
-   "creneau": "2026-11-22T21:00:00+00:00",
-   "creneau_prevu": "2026-11-22T21:00:00+00:00",
+   "creneau": "2026-11-23T00:00:00+00:00",
+   "creneau_prevu": "2026-11-23T00:00:00+00:00",
    "envoye_le": "2026-11-20T03:45:39.569949+00:00",
    "message_id": 16,
    "meta": {
@@ -284,11 +284,11 @@
      "message": "programmé pour 2026-11-23T00:00:00+00:00"
     },
     "youtube": {
+     "deplace": "2026-11-23T00:00:00+00:00",
      "id": "6b0039c944831c50e4c10556",
-     "message": "programmé pour 2026-11-22T21:00:00.000Z"
+     "message": "programmé pour 2026-11-23T00:00:00+00:00"
     }
    },
-   "replanifier_vers": "2026-11-23T00:00:00+00:00",
    "statut": "programme",
    "test": false,
    "titre": "Option A or option B? 😳 #GTA6 #KreekCraft #shorts",
@@ -448,12 +448,16 @@
     "tiktok": {
      "id": "6b00f67bd9cbb430a10f29a5",
      "message": "programmé pour 2026-11-22T00:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b015a379ffbc8503c0eafbb",
+     "message": "programmé pour 2026-11-22T00:00:00.000Z"
     }
    },
    "refus": {
     "youtube": 1
    },
-   "statut": "valide",
+   "statut": "programme",
    "test": false,
    "titre": "Who's Mandy? 😳 #GTA6 #KreekCraft #shorts",
    "valide_le": "2026-11-20T20:27:27.352575+00:00",
