@@ -38,6 +38,7 @@ class Publication:
     miniature_ms: int = 1500        # image de couverture (TikTok / Instagram)
     premier_commentaire: str = ""   # Instagram : commentaire publié avec la vidéo (sert de sondage)
     brouillon: bool = False         # True = enregistré en BROUILLON, rien n'est publié (épisodes de test)
+    story: bool = False             # Instagram : story « NEW REEL » (pas un Reel)
 
 
 @dataclass

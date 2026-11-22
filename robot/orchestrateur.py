@@ -27,6 +27,8 @@ log = logging.getLogger(__name__)
 NOMS = {"tiktok": "TikTok", "youtube": "YouTube", "instagram": "Instagram"}
 META = ("id", "titre", "legende", "youtube_description", "hashtags", "miniature_s", "sondage", "test")
 FENETRE_BUFFER = timedelta(days=4)   # offre gratuite : 10 posts en attente par réseau -> on ne confie à Buffer que 4 jours
+STORY_APRES = timedelta(hours=1)        # story Instagram « NEW REEL » 1 h après le Reel (repris de Crossover Arena)
+STORY_FENETRE = timedelta(hours=3)      # confiée à Buffer au plus tôt 3 h avant le Reel (file gratuite : 10 posts max)
 ABANDON_APRES = 3                    # refus définitifs de Buffer avant d'abandonner un réseau pour un épisode
 
 
@@ -334,6 +336,8 @@ class Orchestrateur:
             self.etat.donnees["correctif_instagram"] = 1
         prets = {e["id"]: e for e in self.episodes_prets()}
         for cle, f in sorted(self.etat.episodes.items()):
+            if f["statut"] == PROGRAMME and not f.get("test") and f.get("creneau") and f.get("meta")                     and not f.get("story") and datetime.fromisoformat(f["creneau"]) > self.maintenant():
+                self.programmer_story(cle, f, dict(f["meta"], id=cle), datetime.fromisoformat(f["creneau"]))
             if f["statut"] != VALIDE:
                 continue
             prevu = f.get("creneau") or f.get("creneau_prevu")
@@ -408,11 +412,44 @@ class Orchestrateur:
                 continue
             f["programme"][plateforme] = {"id": res.id_distant, "message": res.message}
             self.etat.sauvegarder()
+        if not test:
+            self.programmer_story(cle, f, ep, date)
         if all(p in f["programme"] or f.get("abandon", {}).get(p) for p in self.conf["publication"]["plateformes"]):
             f["statut"] = BROUILLON if test else PROGRAMME
             lignes = [f"• {NOMS[p]} : {echapper(r['message'])}" for p, r in f["programme"].items()]
             tete = "📝 Brouillons créés dans Buffer (test, rien de publié)" if test else "📅 Programmé"
             self.bot.envoyer_message(f"{tete} — <b>{echapper(cle)}</b>\n" + "\n".join(lignes), reponse_a=f["message_id"])
+
+    def programmer_story(self, cle: str, f: dict, ep: dict, date: datetime) -> None:
+        """Story Instagram « NEW REEL » 1 h après le Reel : vidéo {cle}_story.mp4 fabriquée par le PC.
+        Confiée à Buffer seulement dans les 3 h avant le Reel, pour ne pas remplir la file gratuite (10 posts)."""
+        if "instagram" not in f.get("programme", {}) or f.get("story") or f.get("story_abandon"):
+            return
+        if date - self.maintenant() > STORY_FENETRE:
+            return                                      # trop tôt : un prochain cycle s'en chargera
+        nom = f"{cle}_story.mp4"
+        try:
+            asset = next((a for a in self.hebergeur.lister() if a["name"] == nom), None)
+        except Exception as exc:  # noqa: BLE001  (la story ne doit jamais bloquer le Reel)
+            log.warning("Story %s : liste des fichiers indisponible (%s)", cle, exc)
+            return
+        if not asset:
+            return                                      # vidéo sans story : rien à faire
+        p = Publication(cle=f"{cle}-story", episode_id=cle, plateforme="instagram", date=date + STORY_APRES,
+                        texte="New reel 🔥", titre=(ep.get("titre") or cle)[:100], hashtags=[],
+                        video_url=asset["browser_download_url"], contenu_ia=bool(self.conf["publication"]["contenu_ia"]),
+                        brouillon=False, miniature_ms=0, premier_commentaire="")
+        p.story = True
+        try:
+            res = self.publieurs["instagram"].programmer(p)
+        except ErreurPublication as exc:
+            n = f.get("story_refus", 0) + 1
+            f["story_refus"] = n
+            if n >= ABANDON_APRES:
+                f["story_abandon"] = True
+            self.alerter(f"story-{cle}", f"{cle} : story Instagram refusée par Buffer : {exc}")
+            return
+        f["story"] = {"id": res.id_distant, "message": res.message}
 
     def echecs_fabrication(self) -> None:
         """Le générateur tourne avant le robot : s'il a échoué, Chahine doit le savoir (sinon rien n'arrive, sans explication)."""
@@ -437,7 +474,7 @@ class Orchestrateur:
                 if self.maintenant() > ref + timedelta(days=jours):
                     try:
                         self.hebergeur.supprimer_nom(f"{cle}.mp4"); f["nettoye"] = True
-                        for annexe in (f"{cle}.json", f"{cle}.jpg", f"{cle}_couverture.jpg"):   # fichiers du PC
+                        for annexe in (f"{cle}.json", f"{cle}.jpg", f"{cle}_couverture.jpg", f"{cle}_story.mp4"):   # fichiers du PC
                             self.hebergeur.supprimer_nom(annexe)
                     except ErreurHebergement as exc:
                         log.warning("Nettoyage de %s impossible : %s", cle, exc)
