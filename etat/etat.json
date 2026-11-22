@@ -7,7 +7,7 @@
  },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 0,
+  "clics_recus": 13,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -206,7 +206,6 @@
      "message": "programmé pour 2026-11-21T21:00:00.000Z"
     }
    },
-   "replanifier_vers": "2026-11-22T00:00:00+00:00",
    "statut": "refuse",
    "test": false,
    "titre": "No such thing as extra beer 😳 #GTA6 #KreekCraft #shorts",
@@ -612,11 +611,11 @@
     "youtube_description": "GTA 6 glitches that shouldn't exist.\n\nWhich one got you? 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "GTA 6 glitches that shouldn't exist 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP016.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP016.mp4"
   },
   "EP017": {
    "creneau_prevu": "2026-11-23T00:00:00+00:00",
@@ -638,11 +637,11 @@
     "youtube_description": "Leonida has some serious physics problems.\n\nHave you seen this in your game? 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "Leonida has some serious physics problems 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP017.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP017.mp4"
   },
   "EP018": {
    "creneau_prevu": "2026-11-23T20:00:00+00:00",
@@ -664,11 +663,11 @@
     "youtube_description": "Nobody expected these GTA 6 glitches.\n\nRate this chaos from 1 to 10 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "Nobody expected these GTA 6 glitches 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP018.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP018.mp4"
   },
   "EP019": {
    "creneau_prevu": "2026-11-24T00:00:00+00:00",
@@ -690,11 +689,11 @@
     "youtube_description": "GTA 6 glitches that shouldn't exist.\n\nRate this chaos from 1 to 10 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "GTA 6 glitches that shouldn't exist 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP019.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP019.mp4"
   },
   "EP020": {
    "creneau_prevu": "2026-11-24T20:00:00+00:00",
@@ -716,11 +715,11 @@
     "youtube_description": "13 years of development for this.\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "13 years of development for this 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP020.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP020.mp4"
   },
   "EP021": {
    "creneau_prevu": "2026-11-25T00:00:00+00:00",
@@ -742,11 +741,11 @@
     "youtube_description": "This is why I love GTA 6 glitches.\n\nWhich one got you? 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "This is why I love GTA 6 glitches 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP021.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP021.mp4"
   },
   "EP022": {
    "creneau_prevu": "2026-11-25T20:00:00+00:00",
@@ -768,11 +767,11 @@
     "youtube_description": "GTA 6 bugs you have to see.\n\nWhich one got you? 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "GTA 6 bugs you have to see 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP022.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP022.mp4"
   },
   "EP023": {
    "creneau_prevu": "2026-11-26T00:00:00+00:00",
@@ -794,11 +793,11 @@
     "youtube_description": "The funniest GTA 6 bugs so far.\n\nWhich one got you? 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "The funniest GTA 6 bugs so far 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP023.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP023.mp4"
   },
   "EP024": {
    "creneau_prevu": "2026-11-26T20:00:00+00:00",
@@ -820,11 +819,11 @@
     "youtube_description": "Nobody expected these GTA 6 glitches.\n\nRate this chaos from 1 to 10 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "Nobody expected these GTA 6 glitches 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP024.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP024.mp4"
   },
   "EP025": {
    "creneau_prevu": "2026-11-27T00:00:00+00:00",
@@ -846,11 +845,11 @@
     "youtube_description": "Leonida has some serious physics problems.\n\nHave you seen this in your game? 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "Leonida has some serious physics problems 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP025.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP025.mp4"
   },
   "EP026": {
    "creneau_prevu": "2026-11-27T20:00:00+00:00",
@@ -872,11 +871,11 @@
     "youtube_description": "GTA 6 physics are something else.\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "GTA 6 physics are something else 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP026.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP026.mp4"
   },
   "EP027": {
    "creneau_prevu": "2026-11-28T00:00:00+00:00",
@@ -898,11 +897,11 @@
     "youtube_description": "GTA 6 glitches that shouldn't exist.\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "GTA 6 glitches that shouldn't exist 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP027.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP027.mp4"
   },
   "EP028": {
    "creneau_prevu": "2026-11-28T20:00:00+00:00",
@@ -924,14 +923,53 @@
     "youtube_description": "GTA 6 physics are something else.\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitch compilation every day."
    },
    "programme": {},
+   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)",
    "statut": "refuse",
    "test": false,
    "titre": "GTA 6 physics are something else 💀 #gta6 #shorts",
-   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP028.mp4",
-   "refus_chahine": "22/11 : toutes refusées (pas de moment épique)"
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP028.mp4"
+  },
+  "EP030": {
+   "creneau_prevu": "2026-11-22T20:00:00+00:00",
+   "envoye_le": "2026-11-22T00:47:19.638965+00:00",
+   "message_id": 80,
+   "meta": {
+    "hashtags": [
+     "#gta6",
+     "#gtavi",
+     "#glitch",
+     "#gaming",
+     "#shorts"
+    ],
+    "id": "EP030",
+    "legende": "Leonida has some serious physics problems 💀\n\nRate this chaos from 1 to 10 👇\n\nNew GTA 6 glitches and crazy moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "Leonida has some serious physics problems 💀 #gta6 #shorts",
+    "youtube_description": "Leonida has some serious physics problems.\n\nRate this chaos from 1 to 10 👇\n\nNew GTA 6 glitches and crazy moments every day."
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "Leonida has some serious physics problems 💀 #gta6 #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP030.mp4"
   }
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": []
+ "relais_a_confirmer": [
+  491274247,
+  491274248,
+  491274249,
+  491274250,
+  491274251,
+  491274252,
+  491274253,
+  491274254,
+  491274255,
+  491274256,
+  491274257,
+  491274258,
+  491274259
+ ]
 }
