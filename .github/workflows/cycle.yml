@@ -7,6 +7,8 @@ on:
   schedule:
     - cron: "*/10 * * * *"       # toutes les 10 minutes (GitHub peut ajouter quelques minutes de retard)
   workflow_dispatch: {}          # bouton « Run workflow »
+  repository_dispatch:           # réveil envoyé par le PC (GitHub espace les cron des petits dépôts : 5-8 h)
+    types: [reveil]
 
 concurrency:
   group: cycle-robot
