@@ -7,7 +7,7 @@
  },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 13,
+  "clics_recus": 0,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -953,23 +953,84 @@
    "test": false,
    "titre": "Leonida has some serious physics problems 💀 #gta6 #shorts",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP030.mp4"
+  },
+  "EP031": {
+   "creneau_prevu": "2026-11-23T00:00:00+00:00",
+   "envoye_le": "2026-11-22T01:40:51.155211+00:00",
+   "message_id": 83,
+   "meta": {
+    "hashtags": [
+     "#gta6",
+     "#gtavi",
+     "#glitch",
+     "#gaming",
+     "#shorts"
+    ],
+    "id": "EP031",
+    "legende": "GTA 6 physics went crazy here 💀\n\nHave you seen this in your game? 👇\n\nNew GTA 6 glitches and crazy moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "GTA 6 physics went crazy here 💀 #gta6 #shorts",
+    "youtube_description": "GTA 6 physics went crazy here.\n\nHave you seen this in your game? 👇\n\nNew GTA 6 glitches and crazy moments every day."
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "GTA 6 physics went crazy here 💀 #gta6 #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP031.mp4"
+  },
+  "EP032": {
+   "creneau_prevu": "2026-11-23T20:00:00+00:00",
+   "envoye_le": "2026-11-22T01:40:55.152303+00:00",
+   "message_id": 85,
+   "meta": {
+    "hashtags": [
+     "#gta6",
+     "#gtavi",
+     "#glitch",
+     "#gaming",
+     "#shorts"
+    ],
+    "id": "EP032",
+    "legende": "GTA 6 moments nobody expected 💀\n\nWhich one got you? 👇\n\nNew GTA 6 glitches and crazy moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "GTA 6 moments nobody expected 💀 #gta6 #shorts",
+    "youtube_description": "GTA 6 moments nobody expected.\n\nWhich one got you? 👇\n\nNew GTA 6 glitches and crazy moments every day."
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "GTA 6 moments nobody expected 💀 #gta6 #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP032.mp4"
+  },
+  "EP033": {
+   "creneau_prevu": "2026-11-24T00:00:00+00:00",
+   "envoye_le": "2026-11-22T01:40:58.077172+00:00",
+   "message_id": 87,
+   "meta": {
+    "hashtags": [
+     "#gta6",
+     "#gtavi",
+     "#glitch",
+     "#gaming",
+     "#shorts"
+    ],
+    "id": "EP033",
+    "legende": "The funniest GTA 6 bugs so far 💀\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitches and crazy moments every day. Follow so you don't miss the next one 🐊",
+    "miniature_s": 1.0,
+    "test": false,
+    "titre": "The funniest GTA 6 bugs so far 💀 #gta6 #shorts",
+    "youtube_description": "The funniest GTA 6 bugs so far.\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitches and crazy moments every day."
+   },
+   "programme": {},
+   "statut": "envoye",
+   "test": false,
+   "titre": "The funniest GTA 6 bugs so far 💀 #gta6 #shorts",
+   "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP033.mp4"
   }
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": [
-  491274247,
-  491274248,
-  491274249,
-  491274250,
-  491274251,
-  491274252,
-  491274253,
-  491274254,
-  491274255,
-  491274256,
-  491274257,
-  491274258,
-  491274259
- ]
+ "relais_a_confirmer": []
 }
