@@ -1342,6 +1342,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP039.mp4"
   },
   "EP040": {
+   "creneau": "2026-11-27T20:00:00+00:00",
    "creneau_prevu": "2026-11-27T20:00:00+00:00",
    "envoye_le": "2026-11-22T02:35:21.903859+00:00",
    "message_id": 108,
@@ -1360,8 +1361,21 @@
     "titre": "13 years of development for this 💀 #gta6 #shorts",
     "youtube_description": "13 years of development for this.\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b049b60d73c10ed4ca3f192",
+     "message": "programmé pour 2026-11-27T20:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b049b5ea083c79d702d4df7",
+     "message": "programmé pour 2026-11-27T20:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b049b5fac07df385d4f6a5c",
+     "message": "programmé pour 2026-11-27T20:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "13 years of development for this 💀 #gta6 #shorts",
    "valide_le": "2026-11-22T10:01:44.127312+00:00",
