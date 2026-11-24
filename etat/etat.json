@@ -7,7 +7,7 @@
  },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 0,
+  "clics_recus": 4,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -1502,9 +1502,10 @@
    },
    "programme": {},
    "rappel": true,
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "GTA 6 chaos you have to see 💀 #gta6 #shorts",
+   "valide_le": "2026-11-24T19:50:22.918202+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP044.mp4"
   },
   "EP045": {
@@ -1528,9 +1529,10 @@
    },
    "programme": {},
    "rappel": true,
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "GTA 6 physics are something else 💀 #gta6 #shorts",
+   "valide_le": "2026-11-24T19:50:23.473166+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP045.mp4"
   },
   "EP046": {
@@ -1553,9 +1555,10 @@
     "youtube_description": "Leonida has some serious physics problems.\n\nWhich one got you? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
    "programme": {},
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "Leonida has some serious physics problems 💀 #gta6 #shorts",
+   "valide_le": "2026-11-24T19:50:23.731079+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP046.mp4"
   },
   "EP047": {
@@ -1578,13 +1581,19 @@
     "youtube_description": "GTA 6 is broken in the best way.\n\nHave you seen this in your game? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
    "programme": {},
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "GTA 6 is broken in the best way 💀 #gta6 #shorts",
+   "valide_le": "2026-11-24T19:50:23.997932+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP047.mp4"
   }
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": []
+ "relais_a_confirmer": [
+  491274274,
+  491274275,
+  491274276,
+  491274279
+ ]
 }
