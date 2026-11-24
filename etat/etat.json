@@ -1386,6 +1386,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP040.mp4"
   },
   "EP041": {
+   "creneau": "2026-11-28T00:00:00+00:00",
    "creneau_prevu": "2026-11-28T00:00:00+00:00",
    "envoye_le": "2026-11-22T02:40:59.154138+00:00",
    "message_id": 111,
@@ -1404,8 +1405,21 @@
     "titre": "Leonida is pure chaos 💀 #gta6 #shorts",
     "youtube_description": "Leonida is pure chaos.\n\nWhich one got you? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b04d39b6734c08a2697acf0",
+     "message": "programmé pour 2026-11-28T00:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b04d39a6734c08a2697ab86",
+     "message": "programmé pour 2026-11-28T00:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b04d39bbc151fa8ad0a49da",
+     "message": "programmé pour 2026-11-28T00:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "Leonida is pure chaos 💀 #gta6 #shorts",
    "valide_le": "2026-11-22T10:01:44.525592+00:00",
