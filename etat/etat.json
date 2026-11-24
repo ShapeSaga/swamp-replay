@@ -7,7 +7,7 @@
  },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 4,
+  "clics_recus": 0,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -1430,6 +1430,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP041.mp4"
   },
   "EP042": {
+   "creneau": "2026-11-28T20:00:00+00:00",
    "creneau_prevu": "2026-11-28T20:00:00+00:00",
    "envoye_le": "2026-11-22T02:47:42.660961+00:00",
    "message_id": 114,
@@ -1448,8 +1449,21 @@
     "titre": "The most insane GTA 6 moments so far 💀 #gta6 #shorts",
     "youtube_description": "The most insane GTA 6 moments so far.\n\nHave you seen this in your game? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b05ecd853ba61949d615455",
+     "message": "programmé pour 2026-11-28T20:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b05ecd61904521f87f1b2a5",
+     "message": "programmé pour 2026-11-28T20:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b05ecd753ba61949d6153cc",
+     "message": "programmé pour 2026-11-28T20:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "The most insane GTA 6 moments so far 💀 #gta6 #shorts",
    "valide_le": "2026-11-22T10:01:44.900065+00:00",
@@ -1590,10 +1604,5 @@
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": [
-  491274274,
-  491274275,
-  491274276,
-  491274279
- ]
+ "relais_a_confirmer": []
 }
