@@ -27,6 +27,7 @@ log = logging.getLogger(__name__)
 NOMS = {"tiktok": "TikTok", "youtube": "YouTube", "instagram": "Instagram"}
 META = ("id", "titre", "legende", "youtube_description", "hashtags", "miniature_s", "sondage", "test")
 FENETRE_BUFFER = timedelta(days=4)   # offre gratuite : 10 posts en attente par réseau -> on ne confie à Buffer que 4 jours
+STOCK_ALERTE = 4                         # créneaux vides (sur 7 jours) sans vidéo prête -> alerte Telegram
 STORY_APRES = timedelta(hours=1)        # story Instagram « NEW REEL » 1 h après le Reel (repris de Crossover Arena)
 STORY_FENETRE = timedelta(hours=3)      # confiée à Buffer au plus tôt 3 h avant le Reel (file gratuite : 10 posts max)
 ABANDON_APRES = 3                    # refus définitifs de Buffer avant d'abandonner un réseau pour un épisode
@@ -213,6 +214,11 @@ class Orchestrateur:
         cad = self.conf["cadence"]
         jour, libres = planning.places_libres(self.etat.episodes, self.maintenant(), cad)
         a_envoyer = [e for e in self.episodes_prets() if e["id"] not in self.etat.episodes and not e.get("test")]
+        if cad.get("jours_avance") and len(libres) >= STOCK_ALERTE and not a_envoyer:
+            # règle de Chahine : toujours 7 jours d'avance. Des créneaux vides et rien de prêt = la fabrique ne livre plus
+            self.alerter("stock-bas", f"Stock bas : {len(libres)} créneau(x) sans vidéo sur les {cad['jours_avance']} "
+                         f"prochains jours, et aucune vidéo prête. La fabrique ne livre plus (PC éteint ? tâche Windows "
+                         f"en panne ?). Premier créneau vide : {planning.en_clair(libres[0], cad)}.")
         if cad.get("jours_avance") and libres and a_envoyer:
             n = min(len(libres), len(a_envoyer))
             self.bot.envoyer_message(
