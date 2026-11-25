@@ -1474,6 +1474,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP042.mp4"
   },
   "EP043": {
+   "creneau": "2026-11-29T00:00:00+00:00",
    "creneau_prevu": "2026-11-29T00:00:00+00:00",
    "envoye_le": "2026-11-22T02:53:50.411016+00:00",
    "message_id": 117,
@@ -1492,8 +1493,21 @@
     "titre": "GTA 6 glitches caught on stream 💀 #gta6 #shorts",
     "youtube_description": "GTA 6 glitches caught on stream.\n\nWhich one got you? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b06251da8becebb7745ae54",
+     "message": "programmé pour 2026-11-29T00:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b06251b615ec212af70bd4d",
+     "message": "programmé pour 2026-11-29T00:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b06251ca8becebb7745ace6",
+     "message": "programmé pour 2026-11-29T00:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "GTA 6 glitches caught on stream 💀 #gta6 #shorts",
    "valide_le": "2026-11-22T10:01:45.270839+00:00",
