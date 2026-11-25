@@ -1518,6 +1518,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP043.mp4"
   },
   "EP044": {
+   "creneau": "2026-11-29T20:00:00+00:00",
    "creneau_prevu": "2026-11-29T20:00:00+00:00",
    "envoye_le": "2026-11-23T03:08:16.168735+00:00",
    "message_id": 130,
@@ -1536,9 +1537,22 @@
     "titre": "GTA 6 chaos you have to see 💀 #gta6 #shorts",
     "youtube_description": "GTA 6 chaos you have to see.\n\nDrop the worst bug you found 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
+   "programme": {
+    "instagram": {
+     "id": "6b073e6137bb564f6765aceb",
+     "message": "programmé pour 2026-11-29T20:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b073e5fdf7fc6365a290903",
+     "message": "programmé pour 2026-11-29T20:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b073e6037bb564f6765ac1d",
+     "message": "programmé pour 2026-11-29T20:00:00.000Z"
+    }
+   },
    "rappel": true,
-   "statut": "valide",
+   "statut": "programme",
    "test": false,
    "titre": "GTA 6 chaos you have to see 💀 #gta6 #shorts",
    "valide_le": "2026-11-24T19:50:22.918202+00:00",
