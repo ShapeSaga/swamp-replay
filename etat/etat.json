@@ -7,7 +7,7 @@
  },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 0,
+  "clics_recus": 2,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -1639,9 +1639,10 @@
     "youtube_description": "GTA 6 bugs you have to see.\n\nHot take: the glitches are the best part of GTA 6. Agree or disagree? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
    "programme": {},
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "GTA 6 bugs you have to see 💀 #gta6 #shorts",
+   "valide_le": "2026-11-25T07:00:23.279322+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP048.mp4"
   },
   "EP049": {
@@ -1664,13 +1665,17 @@
     "youtube_description": "Rockstar please patch this.\n\nHot take: the glitches are the best part of GTA 6. Agree or disagree? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
    "programme": {},
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "Rockstar please patch this 💀 #gta6 #shorts",
+   "valide_le": "2026-11-25T07:00:23.653225+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP049.mp4"
   }
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": []
+ "relais_a_confirmer": [
+  491274282,
+  491274283
+ ]
 }
