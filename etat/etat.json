@@ -1696,6 +1696,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP047.mp4"
   },
   "EP048": {
+   "creneau": "2026-12-01T20:00:00+00:00",
    "creneau_prevu": "2026-12-01T20:00:00+00:00",
    "envoye_le": "2026-11-25T03:09:39.566304+00:00",
    "message_id": 156,
@@ -1714,8 +1715,21 @@
     "titre": "GTA 6 bugs you have to see 💀 #gta6 #shorts",
     "youtube_description": "GTA 6 bugs you have to see.\n\nHot take: the glitches are the best part of GTA 6. Agree or disagree? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b09e15bb5cd052fe28892a3",
+     "message": "programmé pour 2026-12-01T20:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b09e159c02ca0988aaf436a",
+     "message": "programmé pour 2026-12-01T20:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b09e15a277f27038a348fbf",
+     "message": "programmé pour 2026-12-01T20:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "GTA 6 bugs you have to see 💀 #gta6 #shorts",
    "valide_le": "2026-11-25T07:00:23.279322+00:00",
