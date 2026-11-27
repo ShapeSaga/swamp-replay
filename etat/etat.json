@@ -7,7 +7,7 @@
  },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 2,
+  "clics_recus": 0,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -1872,8 +1872,5 @@
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": [
-  491274286,
-  491274287
- ]
+ "relais_a_confirmer": []
 }
