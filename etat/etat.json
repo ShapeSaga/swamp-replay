@@ -1652,6 +1652,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP046.mp4"
   },
   "EP047": {
+   "creneau": "2026-12-01T00:00:00+00:00",
    "creneau_prevu": "2026-12-01T00:00:00+00:00",
    "envoye_le": "2026-11-24T03:20:51.898645+00:00",
    "message_id": 151,
@@ -1670,8 +1671,21 @@
     "titre": "GTA 6 is broken in the best way 💀 #gta6 #shorts",
     "youtube_description": "GTA 6 is broken in the best way.\n\nHave you seen this in your game? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b08c81b9131f7416c591bae",
+     "message": "programmé pour 2026-12-01T00:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b08c8187c3f43554e3e912e",
+     "message": "programmé pour 2026-12-01T00:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b08c81907985b96e3f8f2b0",
+     "message": "programmé pour 2026-12-01T00:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "GTA 6 is broken in the best way 💀 #gta6 #shorts",
    "valide_le": "2026-11-24T19:50:23.997932+00:00",
