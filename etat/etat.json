@@ -7,7 +7,7 @@
  },
  "correctif_instagram": 1,
  "diag_telegram": {
-  "clics_recus": 0,
+  "clics_recus": 2,
   "mode": "réceptionniste"
  },
  "episodes": {
@@ -1837,9 +1837,10 @@
     "youtube_description": "Leonida has some serious physics problems.\n\nWhich glitch should Rockstar NEVER patch? Defend it 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
    "programme": {},
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "Leonida has some serious physics problems 💀 #gta6 #shorts",
+   "valide_le": "2026-11-27T23:00:23.621460+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP052.mp4"
   },
   "EP053": {
@@ -1862,13 +1863,17 @@
     "youtube_description": "GTA 6 is broken in the best way.\n\nWhat's the first thing you did (or will do) in GTA 6? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
    "programme": {},
-   "statut": "envoye",
+   "statut": "valide",
    "test": false,
    "titre": "GTA 6 is broken in the best way 💀 #gta6 #shorts",
+   "valide_le": "2026-11-27T23:00:24.004070+00:00",
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP053.mp4"
   }
  },
  "offset": 0,
  "pause": false,
- "relais_a_confirmer": []
+ "relais_a_confirmer": [
+  491274286,
+  491274287
+ ]
 }
