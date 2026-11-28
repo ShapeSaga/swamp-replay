@@ -1740,6 +1740,7 @@
    "video_url": "https://github.com/ShapeSaga/swamp-replay/releases/download/videos/EP048.mp4"
   },
   "EP049": {
+   "creneau": "2026-12-02T00:00:00+00:00",
    "creneau_prevu": "2026-12-02T00:00:00+00:00",
    "envoye_le": "2026-11-25T03:16:10.266318+00:00",
    "message_id": 159,
@@ -1758,8 +1759,21 @@
     "titre": "Rockstar please patch this 💀 #gta6 #shorts",
     "youtube_description": "Rockstar please patch this.\n\nHot take: the glitches are the best part of GTA 6. Agree or disagree? 👇\n\nNew GTA 6 glitches and crazy moments every day."
    },
-   "programme": {},
-   "statut": "valide",
+   "programme": {
+    "instagram": {
+     "id": "6b0a1994eab081a3f50936f9",
+     "message": "programmé pour 2026-12-02T00:00:00.000Z"
+    },
+    "tiktok": {
+     "id": "6b0a199270e80ae8f1b7a2dc",
+     "message": "programmé pour 2026-12-02T00:00:00.000Z"
+    },
+    "youtube": {
+     "id": "6b0a1993eab081a3f509361b",
+     "message": "programmé pour 2026-12-02T00:00:00.000Z"
+    }
+   },
+   "statut": "programme",
    "test": false,
    "titre": "Rockstar please patch this 💀 #gta6 #shorts",
    "valide_le": "2026-11-25T07:00:23.653225+00:00",
